@@ -1,0 +1,11 @@
+keyword,match_type,clicks,impressions,spend,sales,conversions,quality_score,days_active,current_bid,acos,roas,ctr,cpc,conversion_rate
+"amazon fba supplies",exact,125,1200,75.00,500.00,10,8,30,0.60,15.0,6.67,10.42,0.60,8.00
+"seller central tools",exact,95,900,57.00,380.00,8,7,25,0.60,15.0,6.67,10.56,0.60,8.42
+"fbm shipping boxes",phrase,85,1100,51.00,340.00,7,6,20,0.60,15.0,6.67,7.73,0.60,8.24
+"inventory management",broad,65,2500,39.00,195.00,3,5,15,0.60,20.0,5.00,2.60,0.60,4.62
+"keyword research tool",exact,110,1050,66.00,440.00,9,8,28,0.60,15.0,6.67,10.48,0.60,8.18
+"ppc optimization",phrase,75,950,45.00,270.00,5,7,22,0.60,16.7,6.00,7.89,0.60,6.67
+"amazon ads manager",exact,130,1100,78.00,520.00,11,9,32,0.60,15.0,6.67,11.82,0.60,8.46
+"automated bidding",broad,45,1800,27.00,108.00,2,4,10,0.60,25.0,4.00,2.50,0.60,4.44
+"competition analyzer",phrase,90,1200,54.00,360.00,7,7,24,0.60,15.0,6.67,7.50,0.60,7.78
+"daily reports",exact,70,800,42.00,280.00,5,6,18,0.60,15.0,6.67,8.75,0.60,7.14
