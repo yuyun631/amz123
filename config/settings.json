@@ -1,0 +1,22 @@
+{
+  "target_acos": 30.0,
+  "min_bid": 0.10,
+  "max_bid": 10.00,
+  "max_daily_change": 0.15,
+  "min_clicks_for_adjustment": 30,
+  "min_days_active": 7,
+  "roas_multiplier": 1.2,
+  "min_quality_score": 5,
+  "max_campaign_daily_budget": 500.0,
+  "min_campaign_daily_budget": 10.0,
+  "learning_period_days": 7,
+  "adjustment_cooldown_hours": 4,
+  "acos_alert_threshold_high": 40.0,
+  "acos_alert_threshold_critical": 50.0,
+  "roas_target": 3.0,
+  "ctr_target": 4.5,
+  "conversion_rate_target": 5.0,
+  "daily_optimization_time": "09:00",
+  "midday_check_time": "12:00",
+  "evening_analysis_time": "17:00"
+}

@@ -1,0 +1,127 @@
+{
+  "acos": {
+    "excellent": {
+      "min": 0,
+      "max": 20,
+      "action": "SCALE_UP",
+      "bid_change": 0.10
+    },
+    "good": {
+      "min": 20,
+      "max": 30,
+      "action": "SCALE_UP",
+      "bid_change": 0.05
+    },
+    "acceptable": {
+      "min": 30,
+      "max": 40,
+      "action": "MAINTAIN",
+      "bid_change": 0.0
+    },
+    "needs_attention": {
+      "min": 40,
+      "max": 50,
+      "action": "REDUCE",
+      "bid_change": -0.05
+    },
+    "critical": {
+      "min": 50,
+      "max": 1000,
+      "action": "REDUCE_SIGNIFICANTLY",
+      "bid_change": -0.15
+    }
+  },
+  "roas": {
+    "excellent": {
+      "min": 5.0,
+      "max": 1000,
+      "action": "SCALE_UP",
+      "bid_change": 0.15
+    },
+    "good": {
+      "min": 3.0,
+      "max": 5.0,
+      "action": "SCALE_UP",
+      "bid_change": 0.10
+    },
+    "acceptable": {
+      "min": 2.0,
+      "max": 3.0,
+      "action": "MAINTAIN",
+      "bid_change": 0.0
+    },
+    "poor": {
+      "min": 1.0,
+      "max": 2.0,
+      "action": "REDUCE",
+      "bid_change": -0.10
+    },
+    "critical": {
+      "min": 0,
+      "max": 1.0,
+      "action": "PAUSE_REVIEW",
+      "bid_change": -0.25
+    }
+  },
+  "ctr": {
+    "excellent": {
+      "min": 6.0,
+      "max": 1000,
+      "status": "STRONG"
+    },
+    "good": {
+      "min": 4.5,
+      "max": 6.0,
+      "status": "GOOD"
+    },
+    "acceptable": {
+      "min": 3.0,
+      "max": 4.5,
+      "status": "ACCEPTABLE"
+    },
+    "poor": {
+      "min": 1.5,
+      "max": 3.0,
+      "status": "NEEDS_ATTENTION"
+    },
+    "critical": {
+      "min": 0,
+      "max": 1.5,
+      "status": "CRITICAL"
+    }
+  },
+  "conversion_rate": {
+    "excellent": {
+      "min": 8.0,
+      "max": 1000,
+      "status": "EXCELLENT"
+    },
+    "good": {
+      "min": 5.0,
+      "max": 8.0,
+      "status": "GOOD"
+    },
+    "acceptable": {
+      "min": 2.0,
+      "max": 5.0,
+      "status": "ACCEPTABLE"
+    },
+    "poor": {
+      "min": 0.5,
+      "max": 2.0,
+      "status": "NEEDS_ATTENTION"
+    },
+    "critical": {
+      "min": 0,
+      "max": 0.5,
+      "status": "CRITICAL"
+    }
+  },
+  "quality_score": {
+    "excellent": 9,
+    "good": 7,
+    "acceptable": 5,
+    "poor": 3,
+    "critical": 0
+  }
+}
